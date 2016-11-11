@@ -20,7 +20,8 @@
         </activity>
         <activity
             android:name=".Instructions"
-            android:label="@string/action_instructions"></activity>
+            android:label="@string/action_instructions"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

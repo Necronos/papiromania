@@ -7,10 +7,4 @@
         android:title="@string/action_instructions"
         android:icon="@mipmap/ic_help_outline_black"
         app:showAsAction="always"/>
-
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_about"
-        android:icon="@mipmap/ic_info_outline_black"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
 </menu>
