@@ -21,7 +21,16 @@
         <activity
             android:name=".Instructions"
             android:label="@string/action_instructions"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CategorySelected"
+            android:label="@string/activity_figures"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".FigureSteps"
+            android:label="@string/activity_steps"
+            android:parentActivityName=".CategorySelected">
+        </activity>
     </application>
 
 </manifest>

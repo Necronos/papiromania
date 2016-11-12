@@ -3,7 +3,12 @@
     <string name="action_settings">Configuración</string>
     <string name="action_instructions">Instrucciones</string>
     <string name="action_about">Acerca de</string>
-    <string name="instructions">En la pantalla inicial tendrá las categorías de las figuras para hacer. Y dentro de cada categoría
+    <string name="action_home">Inicio</string>
+    <string name="activity_figures">Figuras</string>
+    <string name="activity_steps">Pasos</string>
+    <string name="instructions">En la pantalla inicial tendrá las categorías de las figuras de papel. Y dentro de cada categoría
         habrá un listado de las figuras para hacer. Utilice papel tipo carta de preferencia.
     </string>
+    <string name="nextButton">Siguiente</string>
+    <string name="BackButton">Atrás</string>
 </resources>

@@ -14,7 +14,7 @@
 
         <ImageView
             android:layout_height="match_parent"
-            app:srcCompat="@mipmap/placeholder"
+            app:srcCompat="@drawable/placeholder"
             android:id="@+id/categImage"
             android:layout_margin="5dp"
             android:layout_width="100dp" />

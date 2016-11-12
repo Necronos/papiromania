@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         String[] categorias = {"Animales", "Figuras Geométricas", "Plantas", "Otros"};
-        int[] categoFotos = {R.mipmap.catego_animals, R.mipmap.catego_geometry, R.mipmap.catego_flowers, R.mipmap.catego_others};
+        int[] categoFotos = {R.drawable.catego_animals, R.drawable.catego_geometry, R.drawable.catego_flowers, R.drawable.catego_others};
 
         //ListAdapter adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, categorias);
         //ListView listCategories = (ListView) findViewById(R.id.list_categories);

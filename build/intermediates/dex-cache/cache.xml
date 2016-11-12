@@ -3,12 +3,48 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_bd1039475bf697e54338d61bd82be743b86ae05e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c75fc2f004b05ef12e99e2b67c973e8e8d3e3967">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2334c7e3c7d0e1542ec83eea052c187fe60cda87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\enriq\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_e5137630db58729ead25e01cc7a7b9271cf3a2b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
         <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_caf055518bbf5dcdbe5581ab9662c9f97ead69af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ccfd2724fb0dfb30554606a9737442c66961b2ac\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,87 +66,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e3c7fb775d19a0e94651e1f08605beb8754ef152\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_3373f72ca1a02e14fa83ff00f527a52df3cd1fb0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_03874ddb549b1d56402360a0eeb58ea76906cf26\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_cc203e4eee1372bd82083940097541256336baca\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_7c57c34430bcebbe075a0bc351e39a171e9fba27\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_bd1039475bf697e54338d61bd82be743b86ae05e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0efe8115ea7a50e73c9477eb8b26cdeedaa4dc83">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2334c7e3c7d0e1542ec83eea052c187fe60cda87\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\enriq\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_e5137630db58729ead25e01cc7a7b9271cf3a2b5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ccfd2724fb0dfb30554606a9737442c66961b2ac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -129,6 +84,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e3c7fb775d19a0e94651e1f08605beb8754ef152\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -138,11 +102,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_3373f72ca1a02e14fa83ff00f527a52df3cd1fb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2a671462cb971ac964dbf5e0c61b782ac5ac8a27">
+        sha1="93604dfa2fd21bf648d4583e2743a423f9952910">
         <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6a85b5f688116befbf14c49f8b574c0cce1c9d50\classes.dex" />
     </item>
     <item
@@ -165,6 +138,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_03874ddb549b1d56402360a0eeb58ea76906cf26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -174,12 +156,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_cc203e4eee1372bd82083940097541256336baca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
         <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c7b28dfd2690f7e743ff1b2c70285808afb20500\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\enriq\StudioProjects\papiromania\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_7c57c34430bcebbe075a0bc351e39a171e9fba27\classes.dex" />
     </item>
 
 </items>
