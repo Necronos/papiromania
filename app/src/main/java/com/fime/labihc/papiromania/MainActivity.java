@@ -7,9 +7,15 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.StringBuilderPrinter;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +25,26 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        String[] categorias = {"Animales", "Figuras Geométricas", "Plantas", "Otros"};
+        int[] categoFotos = {R.mipmap.catego_animals, R.mipmap.catego_geometry, R.mipmap.catego_flowers, R.mipmap.catego_others};
+
+        //ListAdapter adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, categorias);
+        //ListView listCategories = (ListView) findViewById(R.id.list_categories);
+        CustomAdapter adaptador = new CustomAdapter(this, categorias, categoFotos);
+        ListView listCategories = (ListView) findViewById(R.id.list_categories);
+        listCategories.setAdapter(adaptador);
+
+        AdapterView.OnItemClickListener mMessageClickedHandled = new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String categoria = String.valueOf(parent.getItemAtPosition(position));
+                Toast.makeText(MainActivity.this, categoria, Toast.LENGTH_SHORT).show();
+
+            }
+        };
+        listCategories.setOnItemClickListener(mMessageClickedHandled);
+
 
     }
 
@@ -45,6 +71,5 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
-
     }
 }
