@@ -17,33 +17,41 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/placeholder"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/imageView2" />
+        android:id="@+id/stepsImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
-        android:id="@+id/textView2"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+        android:id="@+id/stepsText"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stepsImage"
+        android:layout_alignParentBottom="true" />
 
     <Button
         android:text="@string/nextButton"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:id="@+id/nextButton"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="5dp"
+        android:backgroundTint="@android:color/white" />
 
     <Button
         android:text="@string/BackButton"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/nextButton"
         android:layout_alignParentStart="true"
-        android:id="@+id/backButton" />
+        android:id="@+id/backButton"
+        android:layout_width="100dp"
+        style="@style/Widget.AppCompat.Button"
+        android:backgroundTint="@android:color/white"
+        android:elevation="5dp" />
 
 </RelativeLayout>
