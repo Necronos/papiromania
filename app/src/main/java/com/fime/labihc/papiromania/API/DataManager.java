@@ -12,6 +12,9 @@ public class DataManager {
     private static DataManager instance = new DataManager(); // singleton
     private HashMap<String,PapiCateg> categories;
 
+    public static String EXTRA_CATEGORY = "EXTRA_CATEGORY2016";
+
+
     private DataManager(){ // in private mode, it cannot be instantiated
         categories = new HashMap<>();
         reloadCategories();

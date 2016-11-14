@@ -1,9 +1,11 @@
 package com.fime.labihc.papiromania.classes;
 
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class PapiCateg {
+public class PapiCateg
+        implements Serializable { // Para que se pueda enviar entre activities
     private String name;
     private int imageResId;
     private ArrayList<PapiItem> items;
@@ -35,4 +37,5 @@ public class PapiCateg {
     public void addItem(PapiItem item){
         items.add(item);
     }
+
 }

@@ -10,15 +10,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.fime.labihc.papiromania.R;
-import com.fime.labihc.papiromania.classes.PapiCateg;
+import com.fime.labihc.papiromania.classes.PapiItem;
 
 import java.util.ArrayList;
 
-public class PapiAdapter extends ArrayAdapter<PapiCateg>{
+public class PapiItemAdapter extends ArrayAdapter<PapiItem>{
     private int layoutResId;
 
-    public PapiAdapter(Context context, int layoutResId, ArrayList<PapiCateg> items){
-        super(context,layoutResId,items);
+
+    public PapiItemAdapter(Context context, int layoutResId, ArrayList<PapiItem> data) {
+        super(context, layoutResId, data);
         this.layoutResId = layoutResId;
     }
 
@@ -27,13 +28,14 @@ public class PapiAdapter extends ArrayAdapter<PapiCateg>{
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater listInflayer = LayoutInflater.from(getContext());
         View customView = listInflayer.inflate(layoutResId, parent, false);
+
         TextView categText = (TextView) customView.findViewById(R.id.categText);
         ImageView categImage = (ImageView) customView.findViewById(R.id.categImage);
 
-        PapiCateg papiCateg = getItem(position);
+        PapiItem papiItem = getItem(position);
 
-        categText.setText(papiCateg.getName());
-        categImage.setImageResource(papiCateg.getImageResId());
+        categText.setText(papiItem.getName());
+        categImage.setImageResource(papiItem.getImageResourceID());
 
         return customView;
     }
