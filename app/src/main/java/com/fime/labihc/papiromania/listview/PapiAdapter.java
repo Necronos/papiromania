@@ -22,7 +22,7 @@ public class PapiAdapter extends ArrayAdapter<PapiCateg>{
         this.layoutResId = layoutResId;
     }
 
-    @NonNull
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater listInflayer = LayoutInflater.from(getContext());
