@@ -17,34 +17,33 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import com.fime.labihc.papiromania.API.DataManager;
+import com.fime.labihc.papiromania.classes.PapiCateg;
+import com.fime.labihc.papiromania.listview.PapiAdapter;
+
+import java.util.ArrayList;
+
+public class MainActivity extends AppCompatActivity
+        implements AdapterView.OnItemClickListener { // ListView Clicks are handled by this activity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Find elements
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        ListView listCategories = (ListView) findViewById(R.id.list_categories);
+
         setSupportActionBar(toolbar);
 
-        String[] categorias = {"Animales", "Figuras Geométricas", "Plantas", "Otros"};
-        int[] categoFotos = {R.drawable.catego_animals, R.drawable.catego_geometry, R.drawable.catego_flowers, R.drawable.catego_others};
+        // Setting data
+        ArrayList<PapiCateg> categories = DataManager.getCategoriesAsArray();
+        PapiAdapter papiAdapter = new PapiAdapter(this,R.layout.custom_list,categories);
 
-        //ListAdapter adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, categorias);
-        //ListView listCategories = (ListView) findViewById(R.id.list_categories);
-        CustomAdapter adaptador = new CustomAdapter(this, categorias, categoFotos);
-        ListView listCategories = (ListView) findViewById(R.id.list_categories);
-        listCategories.setAdapter(adaptador);
+        listCategories.setAdapter(papiAdapter);
 
-        AdapterView.OnItemClickListener mMessageClickedHandled = new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String categoria = String.valueOf(parent.getItemAtPosition(position));
-                Toast.makeText(MainActivity.this, categoria, Toast.LENGTH_SHORT).show();
-
-            }
-        };
-        listCategories.setOnItemClickListener(mMessageClickedHandled);
-
+        listCategories.setOnItemClickListener(this);
 
     }
 
@@ -71,5 +70,12 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        String categoria = ((PapiCateg)adapterView.getItemAtPosition(i)).getName();
+        Toast.makeText(MainActivity.this, categoria, Toast.LENGTH_SHORT).show();
     }
 }
