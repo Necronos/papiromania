@@ -28,6 +28,9 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity
         implements AdapterView.OnItemClickListener { // ListView Clicks are handled by this activity
 
+    private Toast toast;
+    private long lastBackPressTime = 0;
+
     public String loadJSONFromAsset() {
         String json = null;
         try {
@@ -109,5 +112,19 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(getBaseContext(),CategoryActivity.class);
         intent.putExtra(DataManager.EXTRA_CATEGORY,((PapiCateg)adapterView.getItemAtPosition(i)));
         startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (this.lastBackPressTime < System.currentTimeMillis() - 4000) {
+            toast = Toast.makeText(this, "Presiona de nuevo para cerrar la app", 4000);
+            toast.show();
+            this.lastBackPressTime = System.currentTimeMillis();
+        } else {
+            if (toast != null) {
+                toast.cancel();
+            }
+            super.onBackPressed();
+        }
     }
 }

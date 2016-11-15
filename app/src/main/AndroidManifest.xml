@@ -40,7 +40,7 @@
             android:parentActivityName=".CategorySelected" />
         <activity
             android:name=".PapiStepPageViewerActivity"
-            android:label="PapiPasos"
+            android:label="Pasos"
             android:parentActivityName=".CategoryActivity">
         </activity>
     </application>
