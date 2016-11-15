@@ -24,7 +24,7 @@
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.fime.labihc.papiromania.MainActivity"/>
+                android:value="com.fime.labihc.papiromania.MainActivity" />
         </activity>
         <activity
             android:name=".Instructions"
@@ -37,7 +37,12 @@
         <activity
             android:name=".FigureSteps"
             android:label="@string/activity_steps"
-            android:parentActivityName=".CategorySelected"/>
+            android:parentActivityName=".CategorySelected" />
+        <activity
+            android:name=".PapiStepPageViewerActivity"
+            android:label="PapiPasos"
+            android:parentActivityName=".CategoryActivity">
+        </activity>
     </application>
 
 </manifest>

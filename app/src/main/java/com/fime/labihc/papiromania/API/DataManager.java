@@ -11,6 +11,7 @@ import com.fime.labihc.papiromania.R;
 import com.fime.labihc.papiromania.RandomGenerator;
 import com.fime.labihc.papiromania.classes.PapiCateg;
 import com.fime.labihc.papiromania.classes.PapiItem;
+import com.fime.labihc.papiromania.classes.PapiStep;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,11 +27,13 @@ import static android.content.ContentValues.TAG;
 
 
 public class DataManager {
+
+    public static final int RESULT_CATEG = 12312;
     private static DataManager instance = new DataManager(); // singleton
     private HashMap<String,PapiCateg> categories;
 
-    public static String EXTRA_CATEGORY = "EXTRA_CATEGORY2016";
-
+    public static final String EXTRA_CATEGORY = "EXTRA_CATEGORY2016";
+    public static final String EXTRA_ITEM = "EXTRA_ITEM2016";
 
     private DataManager(){ // in private mode, it cannot be instantiated
         categories = new HashMap<>();
@@ -50,25 +53,27 @@ public class DataManager {
                     JSONObject c = categorias.getJSONObject(i);
                     String name = c.getString("name");
                     int imgId = c.getInt("imgId");
-                    instance.categories.put(name, new PapiCateg(name,imgId));
+                    PapiCateg papiCateg = new PapiCateg(name, ImgResParser.mapImgId(imgId));
+                    instance.categories.put(name, papiCateg);
 
                     JSONArray papite = c.getJSONArray("PapiItems");
                     for (int y = 0; y < papite.length(); y++){
                         JSONObject f = papite.getJSONObject(y);
                         name = f.getString("name");
                         imgId = f.getInt("imgId");
-                        PapiItem papiItem = new PapiItem(imgId, name);
+                        PapiItem papiItem = new PapiItem( ImgResParser.mapImgId(imgId), name);
 
-                        if (y==0) {
-                            JSONArray papist = f.getJSONArray("PapiSteps");
-                            for (int z = 0; z < papist.length(); z++){
-                                JSONObject s = papist.getJSONObject(z);
-                                String title = s.getString("title");
-                                imgId = s.getInt("imgId");
-                                String description = s.getString("description");
-                                papiItem.addStep(title,description,imgId);
-                            }
+                        // Obtenemos los pasos
+                        JSONArray papiSteps = f.getJSONArray("PapiSteps");
+
+                        for(int step = 0; step < papiSteps.length(); step++){
+                            //int sequenceNumber, String title, String description, int imgResId
+                            JSONObject papiStepJson = papiSteps.getJSONObject(step);
+                            papiItem.addStep(papiStepJson.getString("title"),
+                                    papiStepJson.getString("description"),
+                                    ImgResParser.mapImgId(papiStepJson.getInt("imgId")));
                         }
+                        papiCateg.addItem(papiItem);
                     }
                 }
 
