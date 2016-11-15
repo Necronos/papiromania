@@ -1,0 +1,600 @@
+{
+  "categorias": [
+    {
+      "name": "Animales",
+      "imgId": 1,
+      "PapiItems": [
+        {
+          "name": "Perro",
+          "imgId": 11,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 111,
+              "description": "En una hoja cuadrada, doblaremos a la mitad de forma que se obtenga un triángulo y una línea que va de una esquina a otra."
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 112,
+              "description": "Al estar doblada en la forma de triángulo, se hará un leve dobles como se muestra en la imagen."
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 113,
+              "description": "Después las dos esquinas superiores de doblaran en forma diagonal hacia abajo. No se doblará toda, solo una pequeña parte."
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 114,
+              "description": "Por último, se doblará la esquina inferior hacia arriba para simular el hocico."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 115,
+              "description": "Se le agregan los ojos y nariz y ¡listo! Nuestra cabeza de perrito está hecha."
+            }
+          ]
+        },
+        {
+          "name": "Ratón",
+          "imgId": 12,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 121,
+              "description": "Tomamos una hoja cuadrada y doblaremos uniendo esquina con esquina opuesta marcando un dobles, desdoblamos y guiados por esta línea doblaremos como se indica."
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 122,
+              "description": "Haremos lo mismo con la parte que no está doblada de la misma forma que la anterior."
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 123,
+              "description": "“abriremos” lo anterior doblado y por la diagonal que quedo marcada, doblaremos sobre esa línea."
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 124,
+              "description": "Como se nota en la imagen la marca de una diagonal en cada lado, se procederá a doblar sobre dicha diagonal."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 125,
+              "description": "Los “picos” que sobre salen serán marcados sus dobleces de manera que se mantengan parados. Mientras tanto el pico de la orilla será doblado hacia atrás."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 126,
+              "description": "Se volverá a doblar en diagonal tal y como lo muestra la imagen"
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 127,
+              "description": "Así es como se deberá de ver al realizar el paso anterior"
+            },
+            {
+              "title": "Paso 8",
+              "imgId": 128,
+              "description": "A continuación, se doblará hacia abajo por la mitad, las orejas se doblarán poco como la diagonal marcada en la imagen y serán abiertas un poco de en medio."
+            },
+            {
+              "title": "Paso 9",
+              "imgId": 129,
+              "description": "La parte de la cola será “abierta y por la línea marcada a la mitad, se doblará la cola hacia adentro quedando para abajo el pico."
+            },
+            {
+              "title": "Paso 10",
+              "imgId": 1210,
+              "description": "Luego la cola volverá a subir, pero se marcará a la misma altura que la base del ratón."
+            },
+            {
+              "title": "Paso 11",
+              "imgId": 1211,
+              "description": "¡Listo! El pequeño ratón está terminado."
+            }
+          ]
+        },
+        {
+          "name": "Zorro",
+          "imgId": 13,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 131,
+              "description": "Iniciamos con una hoja cuadrada y doblaremos de punta a punta formando un triangulo"
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 132,
+              "description": "Desdoblamos y haremos lo mismo en el sentido opuesto"
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 133,
+              "description": "Se doblarán las puntas laterales del triángulo hacia la punta superior"
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 134,
+              "description": "Doblaremos a la mitad por el doblez marcado en ese punto."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 135,
+              "description": "Se harán 3 puntas de un lado, así que tomaremos la primera y haremos un pequeño dobles en diagonal como se muestra."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 136,
+              "description": "Tomaremos la segunda punta y la abriremos para marcar su dobles, el pico lo doblaremos hacia adentro para así dar la forma de la cabeza. Por último, la cola será doblada hacia adelante."
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 137,
+              "description": "Para darle el toque final se dibujarán los ojos y la nariz. ¡Listo! El zorro esta terminado."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Figuras Geométricas",
+      "imgId": 2,
+      "PapiItems": [
+        {
+          "name": "Estrella",
+          "imgId": 21,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 211,
+              "description": "Podemos usar 2 hojas de color diferente para apreciar mejor la figura. Al unir las dos partes se debe completar un cuadrado perfecto."
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 212,
+              "description": "Cada rectángulo de color lo doblaremos a la mitad, y como se marca en la imagen, dolaremos sus esquinas hacia adentro, una para la derecha y otra hacia la izquierda"
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 213,
+              "description": "Ahora en cada una doblaremos hacia arriba, marcamos y desdoblamos. Después haremos 2 dobleces en diagonal desde el borde inferior hasta la línea marcada a la mitad, uno hacia la izquierda y el de la otra hoja a la derecha. Haremos lo mismo con la parte superior. "
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 214,
+              "description": "Ahora a uno de los dos se le dará la vuelta, uno tendrá un pliegue que se abre y el otro no y de esta manera pondremos uno encima del otro."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 215,
+              "description": "La punta que tenga el pliegue, por esa parte se doblará hacia adentro y la punta se meterá dentro de la otra figura. Con la otra punta se hará lo mismo."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 216,
+              "description": "Le volvemos a dar la vuela"
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 217,
+              "description": "Volvemos a doblar la punta con pliegue y la punta la metemos dentro de la otra figura. Repetimos el paso con la otra punta con pliegue."
+            },
+            {
+              "title": "Paso 8",
+              "imgId": 218,
+              "description": "¡Por fin! Nuestra estrella está terminada."
+            }
+          ]
+        },
+        {
+          "name": "Triangulo",
+          "imgId": 22,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 221,
+              "description": "Empieza con una hoja cuadrada, Dobla una esquina de papel hacia arriba hasta la esquina opuesta y luego desdobla. Repite con las otras dos esquinas. Ahora dobla un borde horizontalmente hasta el otro, pliega y desdobla. Repite lo anterior con el otro borde."
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 222,
+              "description": "Dobla hacia adentro cada esquina del cuadrado hasta el centro, donde se cruzan las líneas. Esta vez no desdobles"
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 223,
+              "description": "Lleva hacia adentro la punta plegada en la mitad de cada lado para juntarlas, formando una forma de estrella. "
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 224,
+              "description": "Dobla la forma de estrella en un triángulo plano, con dos puntas en cada lado."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 225,
+              "description": "Desdobla la solapa atrapada dentro de la parte posterior del triángulo plano."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 226,
+              "description": "Tira hacia afuera de la esquina metida en el lado derecho del modelo"
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 227,
+              "description": "Tira del borde delantero del modelo hacia ti, y mete la primera solapa que sacaste de la parte posterior del triángulo, justo detrás del borde frontal. Debe caber completamente en el interior."
+            },
+            {
+              "title": "Paso 8",
+              "imgId": 228,
+              "description": "Voltea el modelo y ajústalo hasta que quede plano. Tenemos nuestro triangulo terminado"
+            }
+          ]
+        },
+        {
+          "name": "Cubo",
+          "imgId": 23,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 231,
+              "description": "Iniciamos con una hoja cuadrada. Una de las esquinas será doblada para unirse con la otra, así como lo muestra la imagen"
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 232,
+              "description": "Después, doblaremos el lado contrario, uniendo esquina con esquina, de forma que se marque una cruz en la hoja como se muestra en la imagen."
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 233,
+              "description": "Una vez teniendo la “cruz” se voltea la hoja (al reverso) y se doblara por la mitad."
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 234,
+              "description": "Se desdobla la hoja ahora doblando por la otra mitad, de manera que queden 4 líneas marcadas en la hoja"
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 235,
+              "description": "presionamos el centro, donde se unen las líneas; tomamos la hoja de cada lado, por donde se marca la mitad de la hoja y las unimos hacia el centro, como se muestra."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 236,
+              "description": "Al unirlos, debemos marcar el dobles que se formara, como lo muestra la imagen de arriba."
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 237,
+              "description": "Tomaremos una esquina y la doblaremos uniéndola con la línea marcada en el centro."
+            },
+            {
+              "title": "Paso 8",
+              "imgId": 238,
+              "description": "Haremos el mismo paso anterior con las 4 esquinas de manera que tome la forma de la imagen."
+            },
+            {
+              "title": "Paso 9",
+              "imgId": 239,
+              "description": "Tomaremos una de las pestañas y la doblaremos hacia el centro cuidando que nos quede un dobles recto"
+            },
+            {
+              "title": "Paso 10",
+              "imgId": 2310,
+              "description": "Repetiremos el último paso en los 4 lados."
+            },
+            {
+              "title": "Paso 11",
+              "imgId": 2311,
+              "description": "En los dobleces marcados anterior mente, de un lado nos quedara una pequeña abertura, ahí doblaremos la pestaña de abajo y la meteremos en esa abertura (repetirlo en las 4 pestañas) Doblaremos las esquinas que quedaron hacia adentro solo para “marcar el dobles”."
+            },
+            {
+              "title": "Paso 12",
+              "imgId": 2312,
+              "description": "A continuación, por la parte que no tiene pestañas, en la esquina hay un pequeño agujero. Ahí soplaremos para que el cubo se infle"
+            },
+            {
+              "title": "Paso 13",
+              "imgId": 2313,
+              "description": "Finalmente, el cubo tomara esta forma. Si queda un poco flojo, solo es de “moldearla” bien con los dedos y quedara listo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plantas",
+      "imgId": 3,
+      "PapiItems": [
+        {
+          "name": "Flor",
+          "imgId": 31,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 311,
+              "description": "Iniciaremos con un cuadrado de la medida que prefiera. El cuadrado se doblará a la mitad uniendo dos esquinas opuestas, dando la forma de un triángulo."
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 312,
+              "description": "Al estar en la forma de triángulo, doblaremos las dos esquinas inferiores uniéndolas con la esquina superior de manera que obtengamos la forma de un rombo"
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 313,
+              "description": "Las esquinas que se acaban de doblar haca arriba, ahora las desdoblaremos, pero solo hasta la mitad y ahí les marcaremos el dobles. "
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 314,
+              "description": "Nos quedara una figura como se muestra. Ahora, la parte detrás de este último dobles será desdoblada y se marcará su dobles"
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 315,
+              "description": "Con el paso anterior debemos obtener la forma que se muestra en la imagen"
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 316,
+              "description": "Los picos que quedan arriba serán doblados hacia adentro por la parte de en medio del anterior dobles. Y guiados por la marca que queda en medio como se muestra en la imagen, se doblara en esa dirección."
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 317,
+              "description": "Se unirán las dos partes del frente sin marcar el doble y se pegarán con pegamento."
+            },
+            {
+              "title": "Paso 8",
+              "imgId": 318,
+              "description": "Todos los pasos anteriores serán repetidos en 4 hojas más (en total 5)"
+            },
+            {
+              "title": "Paso 9",
+              "imgId": 319,
+              "description": "Cada uno se ira pegando a los anteriores dándole la forma de la flor"
+            },
+            {
+              "title": "Paso 10",
+              "imgId": 3110,
+              "description": "Al unir los 5 pétalos nuestra flor deberá quedar de esta forma."
+            }
+          ]
+        },
+        {
+          "name": "Rosa",
+          "imgId": 32,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 321,
+              "description": "Con la ayuda de un CD, marcaremos su contorno en una hoja"
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 322,
+              "description": "Recortaremos el circulo que obtuvimos del CD"
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 323,
+              "description": "Ahora recortaremos en forma de espiral en el círculo, tomando un ancho de 1cm para que no quede tan delgado ni tan grueso. Al terminar de cortarlo todo deberá quedar como la segunda imagen."
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 324,
+              "description": "Tomaremos el inicio del espiral donde comenzamos a cortar y le haremos un pequeño dobles como se muestra."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 325,
+              "description": "Luego doblaremos sobre el doblez anterior, y volveremos a doblar sobre este último. En total serán 3 dobleces."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 326,
+              "description": "A partir de este último comenzaremos a enrollar toda la tira."
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 327,
+              "description": "Al terminar de enrollarla obtendremos una figura así, la pestaña que nos queda abajo será para ahí pegar nuestra rosa. Pondremos un poco de silicón en esta área, lo uniremos con la rosa cuidando de mantener su forma"
+            },
+            {
+              "title": "Paso 8",
+              "imgId": 328,
+              "description": "¡Hemos terminado! Tenemos una hermosa rosa como resultado."
+            }
+          ]
+        },
+        {
+          "name": "Tulipan",
+          "imgId": 33,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 331,
+              "description": "Empieza con una hoja cuadrada, Dobla una esquina de papel hacia arriba hasta la esquina opuesta y luego desdobla. Repite con las otras dos esquinas. "
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 332,
+              "description": "Ahora dobla un borde horizontalmente hasta el otro marcando el dobles."
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 333,
+              "description": "Al estar doblado en forma horizontal, guiados por las líneas marcadas en diagonal, las doblaremos haca adentro, quedándonos una forma de triángulo. Las esquinas inferiores serán dobladas hacia la punta superior como se muestra."
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 334,
+              "description": "Volteamos por el reverso y haremos lo mismo, las puntas inferiores hacia la superior."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 335,
+              "description": "La esquina del lado izquierdo la doblaremos de manera que se una con la línea del centro, pero esta vez no quedaran juntas, se deberá pasar un poco de la línea."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 336,
+              "description": "Con la esquina derecha haremos lo mismo, pasándonos un poco de la línea central."
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 337,
+              "description": "Giraremos la figura por el reverso y doblaremos de igual manera las dos esquinas restantes. Nos quedara la cabeza del tulipán casi hecha"
+            },
+            {
+              "title": "Paso 8",
+              "imgId": 338,
+              "description": "Abrimos un poco las puntas de arriba simulando los pétalos y ¡listo! Tenemos un bonito tulipán."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Otros",
+      "imgId": 4,
+      "PapiItems": [
+        {
+          "name": "Helado",
+          "imgId": 41,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 411,
+              "description": "Con una hoja cuadrada, girada en forma de diamante, uniremos la esquina izquierda con la derecha, marcamos dobles y desdoblamos."
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 412,
+              "description": "Ahora cada esquina la juntaremos con la línea marcada en el centro de la hoja marcando bien los dobleces"
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 413,
+              "description": "Ahora las 2 esquinas marcadas en la imagen se doblarán hacia afuera de forma diagonal."
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 414,
+              "description": "La esquina que sobresalga del margen de la figura serán dobladas hacia atrás."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 415,
+              "description": "Ahora por el reverso de la figura, volveremos a unir las esquinas hacia la línea de centro, pero ahora será del lado superior, el que no tiene ningún dobles."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 416,
+              "description": "Ahora, siguiendo en el reverso de la figura, haremos 2 pequeños dobleces en forma de acordeón como lo muestra la imagen."
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 417,
+              "description": "Volteamos la figura por el lado donde comenzamos y ¡listo! El helado está terminado."
+            }
+          ]
+        },
+        {
+          "name": "Molino",
+          "imgId": 42,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 421,
+              "description": "Con una hoja cuadrada doblaremos a la mitad y marcaremos el dobles para poder desdoblar."
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 422,
+              "description": "Tendremos 2 mitades marcas en la hoja. Ahora cada mitad la doblaremos a la mitad uniendo cada lado hasta la línea marcada en medio de la hoja. No se desdoblará."
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 423,
+              "description": "Ahora doblaremos a la mitad, marcaremos y desdoblaremos. Juntaremos cada borde superior e inferior con el marcado a la mitad y marcaremos el dobles."
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 424,
+              "description": "Desdoblaremos y abriremos la parte inferior."
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 425,
+              "description": "Guiados por la marca del dobles, doblaremos sobre este, pero ahora cuidando que las esquinas que quedan adentro salgan. Haremos lo mismo con la parte superior. "
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 426,
+              "description": "De resultado deberemos obtener una figura similar a la de la imagen. Y las esquinas derecha superior e izquierda inferior serán dobladas hacia arriba y hacia abajo según correspondan."
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 427,
+              "description": "Por ultimo abriremos un poco cada abertura que hay en las esquinas "
+            },
+            {
+              "title": "Paso 8",
+              "imgId": 428,
+              "description": "Podemos unir nuestro molino a un palo con la ayuda de una chincheta uniéndolo por el centro y ¡listo! Nuestro molino está preparado para girar."
+            }
+          ]
+        },
+        {
+          "name": "Corazón",
+          "imgId": 43,
+          "PapiSteps": [
+            {
+              "title": "Paso 1",
+              "imgId": 431,
+              "description": "Con una hoja de papel cuadrada, la giraremos para que se vea como un diamante, luego uniremos la punta superior con la inferior, marcamos bien y desdoblamos"
+            },
+            {
+              "title": "Paso 2",
+              "imgId": 432,
+              "description": "Volveremos a doblar como el paso anterior pero ahora en dirección opuesta."
+            },
+            {
+              "title": "Paso 3",
+              "imgId": 433,
+              "description": "Nuestro cuadrado estará marcado con una cruz. Ahora regresando a la posición de “diamante” tomaremos la punta superior y la doblaremos hacia abajo hasta llegar al punto del centro."
+            },
+            {
+              "title": "Paso 4",
+              "imgId": 434,
+              "description": "Ahora la punta inferior la llevaremos hacia arriba hasta el borde superior"
+            },
+            {
+              "title": "Paso 5",
+              "imgId": 435,
+              "description": "Tomaremos la esquina derecha más baja y la doblaremos hacia arriba para que toque la mitad del borde superior. Repite este doblez con la esquina más baja de la izquierda, llevándolo junto con el doblez hecho en la derecha."
+            },
+            {
+              "title": "Paso 6",
+              "imgId": 436,
+              "description": "Voltea la figura por el otro lado. Aquí en el lado posterior doblaremos las 4 esquinas marcadas."
+            },
+            {
+              "title": "Paso 7",
+              "imgId": 437,
+              "description": "Vuelve a girar el corazón y ¡listo! Veremos el corazón terminado."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
