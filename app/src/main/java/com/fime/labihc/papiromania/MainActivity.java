@@ -1,6 +1,7 @@
 package com.fime.labihc.papiromania;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,10 +19,39 @@ import com.fime.labihc.papiromania.API.DataManager;
 import com.fime.labihc.papiromania.classes.PapiCateg;
 import com.fime.labihc.papiromania.listview.PapiAdapter;
 
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements AdapterView.OnItemClickListener { // ListView Clicks are handled by this activity
+
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            AssetManager assetManager = getBaseContext().getAssets();
+            InputStream is = assetManager.open("categories.json");
+
+            int size = is.available();
+
+            byte[] buffer = new byte[size];
+
+            is.read(buffer);
+
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,12 +65,17 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         // Setting data
+        String jsonstr = loadJSONFromAsset();
+
+        DataManager.reloadCategories(jsonstr);
+
         ArrayList<PapiCateg> categories = DataManager.getCategoriesAsArray();
         PapiAdapter papiAdapter = new PapiAdapter(this,R.layout.custom_list,categories);
 
         listCategories.setAdapter(papiAdapter);
 
         listCategories.setOnItemClickListener(this);
+
 
     }
 
@@ -68,7 +103,6 @@ public class MainActivity extends AppCompatActivity
         }
         return super.onOptionsItemSelected(item);
     }
-
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
