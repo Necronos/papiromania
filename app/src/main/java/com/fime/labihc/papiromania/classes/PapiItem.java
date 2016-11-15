@@ -1,8 +1,10 @@
 package com.fime.labihc.papiromania.classes;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class PapiItem {
+public class PapiItem
+        implements Serializable{ // para que se pueda enviar entre activities
 
     private String name;                // Name of the papi item
     private int imageResourceID;        // Set of images
@@ -32,6 +34,10 @@ public class PapiItem {
 
     public String getName() {
         return name;
+    }
+
+    public int getImageResourceID() {
+        return imageResourceID;
     }
 
     /**

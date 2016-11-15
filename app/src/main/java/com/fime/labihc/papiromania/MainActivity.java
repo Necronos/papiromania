@@ -106,7 +106,8 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        String categoria = ((PapiCateg)adapterView.getItemAtPosition(i)).getName();
-        Toast.makeText(MainActivity.this, categoria, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getBaseContext(),CategoryActivity.class);
+        intent.putExtra(DataManager.EXTRA_CATEGORY,((PapiCateg)adapterView.getItemAtPosition(i)));
+        startActivity(intent);
     }
 }

@@ -1,10 +1,13 @@
 package com.fime.labihc.papiromania.classes;
 
+import java.io.Serializable;
+
 /**
  * Created by jd-14 on 11/13/2016.
  */
 
-public class PapiStep {
+public class PapiStep
+        implements Serializable{
     private int sequenceNumber;
     private String title;
     private String description;
