@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_figure_steps"
@@ -13,45 +12,45 @@
     tools:context="com.fime.labihc.papiromania.FigureSteps">
 
     <ImageView
+        android:id="@+id/stepsImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/placeholder"
-        android:layout_alignParentTop="true"
-        android:id="@+id/stepsImage"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/placeholder" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/stepsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/stepsText"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/stepsImage"
-        android:layout_alignParentBottom="true" />
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
 
     <Button
-        android:text="@string/nextButton"
+        android:id="@+id/nextButton"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:id="@+id/nextButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        style="@style/Widget.AppCompat.Button"
+        android:backgroundTint="@android:color/white"
         android:elevation="5dp"
-        android:backgroundTint="@android:color/white" />
+        android:text="@string/nextButton" />
 
     <Button
-        android:text="@string/BackButton"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/nextButton"
-        android:layout_alignParentStart="true"
         android:id="@+id/backButton"
-        android:layout_width="100dp"
         style="@style/Widget.AppCompat.Button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/nextButton"
         android:backgroundTint="@android:color/white"
-        android:elevation="5dp" />
+        android:elevation="5dp"
+        android:text="@string/BackButton" />
 
 </RelativeLayout>

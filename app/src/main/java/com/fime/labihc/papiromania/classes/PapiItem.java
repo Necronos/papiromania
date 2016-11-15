@@ -117,4 +117,8 @@ public class PapiItem
         }
         return this.steps.get(++actualStep);
     }
+
+    public ArrayList<PapiStep> getSteps() {
+        return steps;
+    }
 }
